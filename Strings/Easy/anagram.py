@@ -17,3 +17,16 @@ if __name__=="__main__":
     s1 = input("Enter 1st string: ")
     s2 = input("Enter 2nd string: ")
     anagram(s1,s2)
+
+# using sorted fn
+
+def sort(s1,s2):
+    if sorted(s1) == sorted(s2):
+        print("Anagram.")
+    else:
+        print("Not Anagram.")
+
+if __name__=="__main__":
+    s1 = input("Enter 1st string: ")
+    s2 = input("Enter 2nd string: ")
+    sort(s1,s2)
